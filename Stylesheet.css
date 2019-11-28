@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/*----------------------------------Generelle ting------------RØR IKKE VED DETTE------------------------*/
+#wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+	
+	
+}
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header {
+		grid-column: 1 / 13;
+		grid-row: 1;
+		box-shadow: 2px 2px 8px 0 rgba(0,0,0,.1);
+	
+}
+
+
+main {
+	grid-column: 1 / 31;
+	grid-row: 2;
+		
+}
+
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+/*-------------------------------Menubar----------RØR IKKE VED DETTE------------------------------*/
+nav {
+	grid-column: 1 / 13;
+
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	
+	float:right;
+}
+
+nav li a {
+	display: block;
+	padding: 2em;
+	color:#333;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav li a:hover {
+	background-color: #707070;
+	
+}
+
+
+.basket{
+	max-width: 50%;
+	height: auto;
+}
+
+
+
+
+
+/*-----------------------------------Footer------RØR IKKE VED DETTE------------------------------------*/
+
+footer {
+	grid-column: 1 / 13;
+	grid-row: 4;
+	color:white;
+	padding: 2em;
+	background-color: #707070;
+	}
+
+
+.left {
+	width: 33.33%;
+	text-align:center;
+	float:left;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.right{
+	width: 33.33%;
+	text-align: center;
+	float: right;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+.center{
+	width: 33.33%;
+	text-align:center;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+/*---------------------------------------Main Body/ Index--------------------------------------*/
+
+.banner {
+	min-height: 900px;
+	background-image: url("banner.png");
+	
+}
+
+.button{
+	  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 16.66%;
+	margin-top: 10%;
+	margin-right: 0;
+  cursor: pointer;
+}
+
+.button2{
+	  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 2%;
+	margin-top: 10%;
+	margin-right: 0;
+  cursor: pointer;
+}
+
+
+
+.maintext{
+	Padding: 20px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.centerbillede {
+  display: block;
+  margin-left: 30%;
+  width: 50%;
+}
+
+
+
+
+/*----------------------------FORHANDLER // UNDERSIDE HER-----------------------*/
+                       /*-------LAV DINE EGNE CLASSES-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------SÅDAN GØR DU // UNDERSIDE HER---------------------*/
+                       /*-------LAV DINE EGNE CLASSES-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------OM OS // UNDERSIDE HER---------------------*/
+                       /*-------LAV DINE EGNE CLASSES-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------BETALLING // UNDERSIDE HER---------------------*/
+                       /*-------LAV DINE EGNE CLASSES-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------SHOP // UNDERSIDE HER---------------------*/
+                       /*-------LAV DINE EGNE CLASSES-------*/
+
+
+
+
+
+
+
