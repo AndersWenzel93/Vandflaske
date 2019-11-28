@@ -6,6 +6,14 @@
 
 
 /*----------------------------------Generelle ting------------RØR IKKE VED DETTE------------------------*/
+
+body {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
 #wrapper {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -15,10 +23,6 @@
 }
 
 
-body {
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-}
 
 
 
@@ -207,62 +211,51 @@ footer {
 /*----------------------------SÅDAN GØR DU // UNDERSIDE HER---------------------*/
                        /*-------LAV DINE EGNE CLASSES-------*/
 
-
+/*---min overskrift----*/
 .animate {
 	
 
  
-font: 700 4em/1 "Oswald", sans-serif;
-  	letter-spacing: 0;
+font: 700 4em/1 'Montserrat', sans-serif;
+  	letter-spacing: -1;
   	padding: .25em 0 .325em;
 	  display: block;
 	  margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
 	
-	background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-	  -webkit-background-clip: text;
-	  background-clip: text;
-	
-	-webkit-text-fill-color: transparent;
-	  -webkit-animation: aitf 80s linear infinite;
-	
-	-webkit-transform: translate3d(0,0,0);
-	  -webkit-backface-visibility: hidden;
-	
-	
-}
-@-webkit-keyframes aitf {
-	0% { background-position: 0% 50%; }
-	100% { background-position: 100% 50%; }
-}
 
+}
+/*---det er mine image tags---*/
 	.one {
 	width: 350px;
     left: 950px;
 	position: relative;
-	
+	margin-left: 5%
 }
 .two {
 	width: 350px;
 	left: 950px;
 	position: relative;
+	margin-left: 5%;
+	margin-top: 1%
 }
 
 .three {
 	width: 350px;
 	left: 950px;
 	position: relative;
-	bottom: 120px;
-		
+	margin-left: 5%;
+	margin-bottom: 1%;
 	
 }
-	
+	/*---det er mine article tags----*/
 	.first {
 		position: relative; 
 		width: 700px;
 		top: 90px;
-			
+		margin-bottom: -150px;
+			margin-left: 10%
 
  
 	}	
@@ -271,8 +264,8 @@ font: 700 4em/1 "Oswald", sans-serif;
 		position: relative;
 		width: 700px;
 		top: 90px;
-			
-		
+		margin-bottom: -150px;	
+		margin-left: 10%
 
 
 }
@@ -280,18 +273,16 @@ font: 700 4em/1 "Oswald", sans-serif;
 	position: relative;
 	width: 700px;
 	top: 90px;
+	margin-bottom: -150px;
+	margin-left: 10%
 	}
 	
 
 
 
-html, body{
-  height: 100%;
-  font-weight: 800;
-}
 
 
-
+/*----animation jeg fandt----*/
 svg {
     display: block;
     font: 10.5em 'Montserrat';
