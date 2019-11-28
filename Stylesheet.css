@@ -209,6 +209,43 @@ footer {
 
 
 
+	.one {
+	width: 350px;
+    left: 950px;
+	position: relative;
+	
+}
+.two {
+	width: 350px;
+	left: 950px;
+	position: relative;
+}
+
+.three {
+	width: 350px;
+	left: 950px;
+	position: relative;
+	bottom: 120px
+	
+}
+	
+	.first {
+		position: relative; 
+		width: 700px;
+		top: 90px
+	}	
+	
+	.second {
+		position: relative;
+		width: 700px;
+		top: 90px
+}
+	.third {
+	position: relative;
+	width: 700px;
+	top: 90px;
+		}
+	
 
 
 
